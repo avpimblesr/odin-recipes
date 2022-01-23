@@ -1,15 +1,22 @@
-## Welcome to GitHub Pages
+# Odin Recipes
 
-You can use the [editor on GitHub](https://github.com/avpimblesr/odin-recipes/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+This is a somewhat basic project that demonstrates the use of links and images in a project. I have created a landing page that presents three recipes. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Clicking on the image of a particular dish takes you to its page which displays the dish, its ingredients, and step-by-step directions of its preparation. Clicking on the 'Home' link in the upper right hand corner of the page returns the user to the landing page.
 
-### Markdown
+I linked an external style sheet to each page which is responsible for:
+- rounding the corners of each image
+- creating a shadow below each image
+- formatting each `block` of three elements; heading, paragraph, and image
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+The images were downloaded from:
+ [https://pixabay.com/](https://pixabay.com/)
 
-```markdown
-Syntax highlighted code block
+[https://www.pexels.com/](https://www.pexels.com/)
+#
+
+### Instructions on how to markdown files are below:
+#
 
 # Header 1
 ## Header 2
@@ -22,16 +29,4 @@ Syntax highlighted code block
 2. List
 
 **Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/avpimblesr/odin-recipes/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+[Link](url) and src: ![Image](./recipes/img/recipes.jpeg)
