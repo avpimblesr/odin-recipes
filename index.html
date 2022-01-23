@@ -10,18 +10,44 @@
 </head>
 
 <body>
-    <h1>Odin Recipes</h1>
-    <ul>
-        <li>
-            <a href="recipes/bakedMacAndCheese.html">Elsie's Baked Mac and Cheese</a>
-        </li>
-        <li>
-            <a href="recipes/curryOmlet.html">Curry Omlet</a>
-        </li>
-        <li>
-            <a href="recipes/southernBiscuits.html">Southern Biscuits</a>
-        </li>
-    </ul>
+    <header class="parent">
+        <h1 class="child">Odin Recipes</h1>
+        <img id="logo" src="./recipes/img/cooking-utencils.jpg" alt="cooking utencils">
+    </header>
+    <main>
+        <div class="card" id="mac-n-cheese">
+            <a href="recipes/bakedMacAndCheese.html">
+                <img src="./recipes/img/macAndCheese_lg.jpeg" height="300px" alt="Elise's Baked Mac and Cheese">
+            </a>
+            <section>
+                <h2>Elise's Baked Mac and Cheese</h2>
+                <p>Triple Cheddar and Colby Jack bring lots of cheese flavor to this creamy mac & cheese with just a
+                    hint of heat.</p>
+            </section>
+        </div>
+
+        <div class="card" id="curry-omlet">
+            <section>
+                <h2>Curry Omlet</h2>
+                <p>This easy and very tasty omelet will impress anyone and they will never have omelet any other way
+                    after tasting this!</p>
+            </section>
+            <a href="recipes/curryOmlet.html">
+                <img src="./recipes/img/westernOmelet_lg.jpeg" height="300px" alt="Curry Omlet">
+            </a>
+        </div>
+
+        <div class="card" id="biscuits">
+            <a href="recipes/southernBiscuits.html">
+                <img src="./recipes/img/biscuits_sm.jpeg" height="300px" alt="Southern Biscuits">
+            </a>
+            <section>
+                <h2>Southern Biscuits</h2>
+                <p>These are the most wonderful biscuits you'll ever put in your mouth. They are the biggest, best
+                    tasting, lightest, and fluffiest biscuits I've ever had. They're not very hard to make either.</p>
+            </section>
+        </div>
+    </main>
 </body>
 
 </html>
